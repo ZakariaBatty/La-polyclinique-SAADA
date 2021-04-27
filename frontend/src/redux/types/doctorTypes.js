@@ -1,0 +1,7 @@
+const doctorTypes = {
+  GETALLDOCTORS: 'GETALLDOCTORS',
+  ADDNEWDOCTOR: 'ADDNEWDOCTOR',
+  ERROR: 'ERROR',
+  TOGGLE_SUCCESS: 'TOGGLE_SUCCESS',
+};
+export default doctorTypes;

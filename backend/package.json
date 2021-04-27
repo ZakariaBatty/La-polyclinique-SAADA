@@ -1,0 +1,44 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "La polyclinique  fait appel à vos services pour informatiser la gestion de sa salle d’attente.La réception oriente ensuite le patient vers un médecin, et enregistre son heure d’arrivée et lui",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZakariaBatty/La-polyclinique-SAADA.git"
+  },
+  "keywords": [
+    "react js",
+    "node js",
+    "express",
+    "mongoose",
+    "ejs"
+  ],
+  "author": "zakaria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZakariaBatty/La-polyclinique-SAADA/issues"
+  },
+  "homepage": "https://github.com/ZakariaBatty/La-polyclinique-SAADA#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-jwt": "^6.0.0",
+    "express-session": "^1.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.4",
+    "nodemon": "^2.0.7"
+  }
+}
